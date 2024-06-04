@@ -1,17 +1,18 @@
 /* основные стили */
 @import 'stylesheets/index.scss';
-@import 'stylesheets/reset.scss';
-@import 'fonts.scss';
+@import 'fonts.css';
 @import 'stylesheets/mixins.scss';
 @import 'stylesheets/vars.scss';
 
 /* стили компонентов */
 
 @import 'stylesheets/components/quarks.scss';
+@import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
 @import 'stylesheets/components/collections.scss';
 @import 'stylesheets/components/wrappers.scss';
 @import 'stylesheets/components/organisms.scss';
-@import 'stylesheets/components/atoms.scss';
+@import 'stylesheets/components/super-organisms.scss';
 
 /* прочие стили подключать ниже */
+@import 'stylesheets/reset.scss';

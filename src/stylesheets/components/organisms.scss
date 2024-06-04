@@ -1,1 +1,108 @@
+.O_service {
+  position: absolute;
+  display: flex;
+  width: 22rem;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  border-radius: 2rem;
+  border: 1px solid #f5ece5;
+  justify-content: space-between;
+}
 
+.O_serviceCard {
+  position: absolute;
+  height: 20rem;
+  width: 15rem;
+  background-color: #100d1e;
+  border-radius: 1rem;
+  border: 1px solid #639880;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.1s;
+
+  img {
+    mix-blend-mode: lighten;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgba(108, 215, 167, 0.4);
+    // background-color: #132a20;
+    transition: 0.1s;
+  }
+}
+
+#ppv {
+  top: 54px;
+  left: 820px;
+}
+
+#gg {
+  top: 54px;
+  left: 60px;
+}
+
+#as {
+  top: 54px;
+  left: 660px;
+}
+
+#ppv_card {
+  top: 11rem;
+  left: 28rem;
+  transform: rotate(5deg);
+  animation: ppvAni 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+}
+
+#gg_card {
+  top: 2rem;
+  left: 55rem;
+  transform: rotate(10deg);
+  animation: ggAni 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+}
+
+#as_card {
+  top: 0;
+  left: 1rem;
+  transform: rotate(-9deg);
+  animation: asAni 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+}
+
+@keyframes ppvAni {
+  0% {
+    transform: translateY(0) rotate(5deg);
+  }
+  100% {
+    transform: translateY(8px) rotate(5deg);
+  }
+}
+
+@keyframes ggAni {
+  0% {
+    transform: translateY(0) rotate(10deg);
+  }
+  100% {
+    transform: translateY(-8px) rotate(10deg);
+  }
+}
+
+@keyframes asAni {
+  0% {
+    transform: translateY(0) rotate(-9deg);
+  }
+  100% {
+    transform: translateY(-8px) rotate(-9deg);
+  }
+}

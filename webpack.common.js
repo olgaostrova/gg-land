@@ -104,27 +104,32 @@ module.exports = {
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html',
-      chunks: ['index']
+      filename: './index.html'
     }),
 
-    //404
+    // Article
+    // new HtmlWebpackPlugin({
+    //   template: './src/articles/superorganisms/S_Popup.html',
+    //   filename: './superorganisms/S_Popup.html'
+    // }),
 
-    new HtmlWebpackPlugin({
-      template: './src/404.html',
-      filename: './404.html',
-      chunks: ['index']
-    })
-
-    // Partials example
-    // new HtmlWebpackPartialsPlugin([
-    //   {
-    //     path: path.join(__dirname, './src/partials/sidebar-white.html'),
-    //     location: 'sidebar-white',
-    //     template_filename: '*',
-    //     priority: 'replace'
-    //   }
-    // ]),
+    // Partials
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/deco.html'),
+        location: 'deco',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/arrow.html'),
+        location: 'arrow',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ])
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]

@@ -1,0 +1,82 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Bitstream Iowan Old Style BT';
+  color: #f5ece5;
+  // word-spacing: 3px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > * {
+    height: 100%;
+  }
+  font-size: 16px;
+  background-color: #100d1e;
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 16rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+
+.it {
+  font-family: 'Bitstream Iowan Old Style Italic BT';
+  font-style: italic;
+}
+
+.gr {
+  color: #6cd7a7;
+}
+
+.video {
+  top: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.first_loop {
+  top: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.final_loop {
+  top: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.None {
+  display: none;
+}

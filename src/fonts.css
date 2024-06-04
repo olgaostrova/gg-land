@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Bitstream Iowan Old Style BT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bitstream Iowan Old Style BT'),
+    url('./fonts/bitstream-iowan-old-style-bt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bitstream Iowan Old Style Italic BT';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Bitstream Iowan Old Style Italic BT'),
+    url('./fonts/bitstream-iowan-old-style-italic.woff') format('woff');
+}

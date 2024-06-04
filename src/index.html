@@ -3,9 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Gaming Gabal</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   </head>
   <body>
-    <p>hello world</p>
+    <div id="header">
+      <img src="images/A_headerLogo.png" alt="" class="A_headerLogo" />
+      <nav class="C_headerMenu">
+        <a href=""><p>Services</p></a>
+        <a href=""><p>Get in touch</p></a>
+        <a href=""><p>Contacts</p></a>
+      </nav>
+      <a href=""><h5 class="it gr">book a call</h5></a>
+    </div>
+    <div id="S_screen1">
+      <div class="C_videos">
+        <video class="final_loop" loop src="images/final_loop.mp4"></video>
+        <video class="video" src="images/video.mp4"></video>
+
+        <video
+          class="first_loop"
+          autoplay
+          muted
+          loop
+          src="images/first_loop.mp4"
+        ></video>
+      </div>
+      <div class="C_cards None">
+        <a href="#S_screen3" class="O_serviceCard" id="as_card">
+          <h6>Advisory Services</h6>
+          <img src="images/A_ASCover.jpg" alt="" class="A_asCardCover" />
+          <p>Work With Blak.Smoke.Sol.</p>
+        </a>
+        <a href="#S_screen4" class="O_serviceCard" id="ppv_card">
+          <h6>PPV Marketing</h6>
+          <img src="images/A_PPVCover.jpg" alt="" class="A_ppvCardCover" />
+          <p>
+            The Gabal Works with the Team to Crete uniquely authentic Content.
+          </p>
+        </a>
+        <a href="#S_screen3" class="O_serviceCard" id="gg_card">
+          <h6>Gaming Gauntlet</h6>
+          <img src="images/A_GGCover.jpg" alt="" class="A_ggCardCover" />
+          <p>The Gabal unites to Alpha/Beta Test your game.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- <div class="scroll"> -->
+    <div id="S_screen3">
+      <img
+        src="images/A_PPVCover.jpg"
+        alt="book with a skull"
+        class="A_serviceCover"
+      />
+      <div class="O_service" id="ppv">
+        <h1 class="A_serviceNum gr">I</h1>
+        <h4 class="A_serviceTitle it">
+          PPV<br />
+          Marketing
+        </h4>
+        <p class="A_serviceDesc">
+          The Gabal Works with the Team <br />
+          to Crete uniquely authentic Content.
+        </p>
+      </div>
+      <h6 class="A_preferences gr" id="PPVWord1">Unique</h6>
+      <div id="PPVArrow1"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="PPVWord2">Timeless</h6>
+      <div id="PPVArrow2"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="PPVWord3">Impactful</h6>
+      <div id="PPVArrow3"><arrow></arrow></div>
+    </div>
+    <div id="S_screen4">
+      <img
+        src="images/A_GGCover.jpg"
+        alt="stick with a skull"
+        class="A_serviceCover"
+      />
+      <div class="O_service" id="gg">
+        <h1 class="A_serviceNum gr">II</h1>
+        <h4 class="A_serviceTitle it">Gaming <br />Gauntlet</h4>
+        <p class="A_serviceDesc">
+          The Gabal unites to Alpha/Beta Test <br />your game.
+        </p>
+      </div>
+      <h6 class="A_preferences gr" id="GGWord1">Rigorous</h6>
+      <div id="GGArrow1"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="GGWord2">Through</h6>
+      <div id="GGArrow2"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="GGWord3">World Class</h6>
+      <div id="GGArrow3"><arrow></arrow></div>
+    </div>
+    <div id="S_screen5">
+      <img
+        src="images/A_ASCover.jpg"
+        alt="scary knife"
+        class="A_serviceCover"
+      />
+      <div class="O_service" id="as">
+        <h1 class="A_serviceNum gr">III</h1>
+        <h4 class="A_serviceTitle it">Advisory <br />Services</h4>
+        <p class="A_serviceDesc">Work With Blak.Smoke.Sol.</p>
+      </div>
+      <h6 class="A_preferences gr" id="ASWord1">Authentic</h6>
+      <div id="ASArrow1"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="ASWord2">Consistent</h6>
+      <div id="ASArrow2"><arrow></arrow></div>
+      <h6 class="A_preferences gr" id="ASWord3">Qualified</h6>
+      <div id="ASArrow3"><arrow></arrow></div>
+    </div>
+    <!-- </div> -->
+    <div id="S_screen2">
+      <h3 class="A_title">Charity</h3>
+      <deco class="A_deco"></deco>
+      <h6 class="A_charityDescription">
+        In alignment to my commitment to DKS, The Gaming Gabal Pledges to
+        allocate 3 percent of its net proceeds to a gaming-centric charity or
+        initiative selected by the Gabal each quarter.
+      </h6>
+    </div>
+    <div id="S_screen6">
+      <h3 class="A_title it">Get in touch</h3>
+      <div class="C_form">
+        <!-- <a href=""><h5 class="A_connectionLink gr">book a call</h5></a>
+        <h6 class="A_connection">or</h6> -->
+        <a href=""><h5 class="A_connectionLink gr">fill a form</h5></a>
+      </div>
+    </div>
+    <div id="S_screen7">
+      <div class="W_map">
+        <img src="images/A_map.png" alt="map" class="A_map" />
+        <div class="A_blackBottom"></div>
+        <img
+          src="images/A_skull.png"
+          alt="a skull with a candle"
+          class="A_skull"
+        />
+        <h2 class="A_contact it" id="contactTitle">contacts</h2>
+        <a href="mailto:Blak.smoke.sol@gmail.com">
+          <h2 class="A_contact it" id="contactEmail">
+            Blak.smoke.sol@gmail.com
+          </h2>
+        </a>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="W_footerLogo">
+        <img
+          src="images/A_footerLogo.png"
+          alt="logotype"
+          class="A_footerLogo"
+        />
+        <p class="A_footerContent">GAMING GABAL © 2024</p>
+      </div>
+      <div class="W_footerContent">
+        <li class="C_footerContent">
+          <a href=""><p class="A_FooterContent">Services</p></a>
+          <a href=""><p class="A_FooterContent">Charity</p></a>
+          <a href=""><p class="A_FooterContent">Contacts</p></a>
+          <a href=""><p class="A_FooterContent">Book a call</p></a>
+          <a href=""><p class="A_FooterContent">Fill the form</p></a>
+        </li>
+        <a href="mailto:Blak.smoke.sol@gmail.com">
+          <p class="A_FooterContent">Blak.smoke.sol@gmail.com</p></a
+        >
+      </div>
+    </div>
   </body>
 </html>
