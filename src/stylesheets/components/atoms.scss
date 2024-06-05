@@ -6,7 +6,7 @@
 .A_connectionLink {
   text-decoration-line: underline;
   text-decoration-thickness: from-font;
-  text-underline-offset: 8px;
+  text-underline-offset: 11px;
 }
 
 .A_serviceNum {
@@ -70,6 +70,15 @@
 .A_headerLogo {
   // width: 12.8125rem;
   height: 3.25rem;
+}
+
+.A_bookHeader {
+  padding: 0.3rem 0.8rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.5rem;
+  background: #6cd7a7;
+  color: #0c0916;
 }
 
 #contactTitle {

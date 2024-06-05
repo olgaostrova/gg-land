@@ -12,4 +12,18 @@ $(document).ready(function () {
       $('.final_loop').css('loop', 'loop')
     }, 3390)
   })
+
+  $('#contactEmail').click(function () {
+    var textToCopy = $(this).text()
+    copyToClipboard(textToCopy)
+    alert('Скопировано')
+  })
+
+  function copyToClipboard(text) {
+    var $temp = $('<textarea>')
+    $('body').append($temp)
+    $temp.val(text).select()
+    document.execCommand('copy')
+    $temp.remove()
+  }
 })
