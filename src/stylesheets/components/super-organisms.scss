@@ -13,7 +13,7 @@
 
 #S_screen_1_mobile {
   display: none;
-  @media screen and (max-width: 1239px) {
+  @media screen and (max-width: 640px) {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
@@ -27,7 +27,7 @@
 
 #S_screen_2_mobile {
   display: none;
-  @media screen and (max-width: 1239px) {
+  @media screen and (max-width: 640px) {
     display: block;
     position: relative;
     height: auto;
@@ -58,14 +58,21 @@
   height: 44rem;
   position: relative;
 
+  @media screen and (max-width: 640px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 770px) {
+    height: 27rem;
+  }
+  @media screen and (max-width: 1000px) {
+    height: 33rem;
+  }
   @media screen and (min-width: 1440px) {
-    height: 52rem;
+    height: 54rem;
   }
   @media screen and (min-width: 1620px) {
     height: 58rem;
-  }
-  @media screen and (max-width: 1239px) {
-    display: none;
   }
 }
 #S_screen2 {

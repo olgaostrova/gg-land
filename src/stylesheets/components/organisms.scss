@@ -47,8 +47,15 @@
     transition: 0.1s;
   }
 
-  @media screen and (max-width: 1239px) {
-    position: relative;
+  @media screen and (max-width: 1000px) {
+    height: 15rem;
+    width: 10rem;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+
+    p {
+      font-size: 0.5rem;
+    }
   }
 }
 
@@ -116,6 +123,19 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+
+  @media screen and (max-width: 1239px) {
+    top: 10rem;
+    left: 24rem;
+  }
+  @media screen and (max-width: 1000px) {
+    top: 10rem;
+    left: 17rem;
+  }
+  @media screen and (max-width: 770px) {
+    top: 5rem;
+    left: 14.5rem;
+  }
 }
 
 #gg_card {
@@ -126,6 +146,21 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+
+  @media screen and (max-width: 1239px) {
+    top: 2rem;
+    left: 44rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    top: 2rem;
+    left: 35rem;
+  }
+
+  @media screen and (max-width: 770px) {
+    top: 2rem;
+    left: 28rem;
+  }
 }
 
 #as_card {
@@ -136,6 +171,16 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+
+  @media screen and (max-width: 770px) {
+    top: 0;
+    left: 1rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    top: 0;
+    left: 1rem;
+  }
 }
 
 @keyframes ppvAni {
