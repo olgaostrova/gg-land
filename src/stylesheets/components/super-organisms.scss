@@ -6,7 +6,7 @@
   align-items: center;
   min-width: 360px;
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     padding: 0.8125rem 0.4rem;
   }
 }
@@ -40,9 +40,9 @@
   }
 }
 
-// @media screen and (max-width: 834px) {
+// @media screen and (max-width: 833px) {
 //   display: block;
-//   width: 834px;
+//   width: 833px;
 //   position: relative;
 //   height: auto;
 //   display: flex;
@@ -53,15 +53,21 @@
 // }
 
 #S_screen1 {
+  overflow: hidden;
   width: 100%;
   height: 44rem;
   position: relative;
 
+  @media screen and (min-width: 1440px) {
+    height: 52rem;
+  }
+  @media screen and (min-width: 1620px) {
+    height: 58rem;
+  }
   @media screen and (max-width: 1239px) {
     display: none;
   }
 }
-
 #S_screen2 {
   display: flex;
   // width: 90rem;
@@ -74,7 +80,7 @@
   gap: 4rem;
   min-width: 360px;
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     padding: 5rem 1.5rem 10rem 1.5rem;
     width: 360px;
   }
@@ -87,18 +93,18 @@
   display: flex;
   // height: 100vh;
   height: 600px;
-  width: 1240px;
+  width: 1239px;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-bottom: 7rem;
   min-width: 360px;
 
-  @media screen and (max-width: 1240px) {
-    width: 834px;
+  @media screen and (max-width: 1239px) {
+    width: 833px;
   }
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     width: 360px;
     height: 750px;
   }
@@ -115,7 +121,7 @@
   position: relative;
   min-width: 360px;
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     width: 360px;
   }
 }
@@ -132,10 +138,10 @@
   overflow: hidden;
   min-width: 360px;
 
-  @media screen and (max-width: 1240px) {
-    width: 834px;
+  @media screen and (max-width: 1239px) {
+    width: 833px;
   }
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     width: 360px;
   }
 }
@@ -148,12 +154,12 @@
   align-items: center;
   min-width: 360px;
   background-color: #100d1e;
-  @media screen and (max-width: 1240px) {
+  @media screen and (max-width: 1239px) {
     padding: 4rem 8rem;
     align-items: flex-end;
   }
 
-  @media screen and (max-width: 834px) {
+  @media screen and (max-width: 833px) {
     padding: 4rem 1rem;
     gap: 1rem;
     align-items: flex-end;
