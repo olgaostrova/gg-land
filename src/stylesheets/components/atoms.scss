@@ -1,8 +1,17 @@
 .A_charityDescription {
   text-align: center;
   max-width: 720px;
+
+  @media screen and (max-width: 834px) {
+    font-size: 1rem;
+  }
 }
 
+.A_deco {
+  @media screen and (max-width: 834px) {
+    width: 16rem;
+  }
+}
 .A_connectionLink {
   text-decoration-line: underline;
   text-decoration-thickness: from-font;
@@ -15,14 +24,23 @@
   left: 0px;
   top: -126px;
   left: 263px;
+  @media screen and (max-width: 1240px) {
+    top: -86px;
+  }
+  @media screen and (max-width: 834px) {
+    top: -58px;
+  }
 }
 
 .A_serviceCover {
   position: absolute;
   margin: auto auto;
-  width: 28.3125rem;
-  height: 28.3125rem;
+  width: 28rem;
   mix-blend-mode: lighten;
+  @media screen and (max-width: 834px) {
+    top: 26rem;
+    width: 17rem;
+  }
 }
 
 .A_preferences {
@@ -33,9 +51,8 @@
   position: relative;
   width: auto;
   height: 3.6875rem;
-  background: #0c0916;
-  box-shadow: 0px -8px 123.1px 0px rgba(0, 0, 0, 0.6),
-    0px -8px 22.1px 0px rgba(0, 0, 0, 0.6);
+  background: #100d1e;
+  box-shadow: 0px -8px 123.1px 0px #100d1e, 0px -8px 22.1px 0px #100d1e;
 }
 
 .A_map {
@@ -47,7 +64,12 @@
   top: 242px;
   left: 668px;
   width: 26.375rem;
-  height: 26.375rem;
+
+  @media screen and (max-width: 1240px) {
+    top: 115px;
+    left: 529px;
+    width: 22.375rem;
+  }
 }
 
 .A_contact {
@@ -59,7 +81,6 @@
 
 .A_footerLogo {
   width: 10.875rem;
-  height: 13.375rem;
   position: relative;
 }
 
@@ -81,56 +102,184 @@
   color: #0c0916;
 }
 
+.A_copied {
+  position: absolute;
+  top: 24rem;
+  left: 25rem;
+  color: #0c0916;
+  background-color: antiquewhite;
+  padding: 3px 8px 4px 8px;
+  border-radius: 8px;
+  opacity: 0;
+  animation: copied 3s;
+}
+
+.A_stamp {
+  position: absolute;
+  right: -9rem;
+  bottom: -3rem;
+  width: 14rem;
+  @media screen and (max-width: 1240px) {
+    right: -2rem;
+    bottom: -4.5rem;
+  }
+  @media screen and (max-width: 834px) {
+    right: 1rem;
+    bottom: -1.5rem;
+    width: 10rem;
+  }
+}
+
+@keyframes copied {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 #contactTitle {
-  top: 152px;
-  left: 582px;
+  top: 162px;
+  left: 602px;
   opacity: 80%;
+  @media screen and (max-width: 1240px) {
+    top: 116px;
+    left: 318px;
+  }
+
+  @media screen and (max-width: 834px) {
+    font-size: 3rem;
+    top: 42px;
+    left: 42px;
+  }
 }
 #contactEmail {
   top: 406px;
   left: 134px;
   width: 706px;
   word-wrap: break-word;
+  @media screen and (max-width: 1240px) {
+    top: 224px;
+    left: 50px;
+  }
+
+  @media screen and (max-width: 834px) {
+    font-size: 1.5rem;
+    width: 13rem;
+    top: 122px;
+    left: 114px;
+  }
 }
 
 //service characteristics
 #PPVWord1 {
   top: 82px;
   left: 188px;
+
+  @media screen and (max-width: 834px) {
+    top: 679px;
+    left: 228px;
+  }
 }
 #PPVWord2 {
   top: 384px;
   left: 127px;
+
+  @media screen and (max-width: 834px) {
+    top: 384px;
+    left: 19px;
+  }
 }
 #PPVWord3 {
   top: 570px;
   left: 678px;
+
+  @media screen and (max-width: 834px) {
+    top: 278px;
+    left: 90px;
+  }
 }
 
 #GGWord1 {
   top: 168px;
   left: 972px;
+  @media screen and (max-width: 1240px) {
+    left: 705px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 674px;
+    left: 242px;
+  }
 }
 #GGWord2 {
   top: 460px;
   left: 900px;
+  @media screen and (max-width: 1240px) {
+    left: 650px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 744px;
+    left: 19px;
+  }
 }
 #GGWord3 {
   top: 554px;
   left: 298px;
+
+  @media screen and (max-width: 1240px) {
+    left: 209px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 317px;
+    left: 90px;
+  }
 }
 
 #ASWord1 {
   top: 256px;
   left: 178px;
+
+  @media screen and (max-width: 1240px) {
+    left: 88px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 642px;
+    left: 18px;
+  }
 }
 #ASWord2 {
   top: 540px;
   left: 380px;
+
+  @media screen and (max-width: 1240px) {
+    left: 280px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 720px;
+    left: 236px;
+  }
 }
 #ASWord3 {
   top: 560px;
   left: 910px;
+
+  @media screen and (max-width: 1240px) {
+    left: 690px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 360px;
+    left: 35px;
+  }
 }
 
 //arrows
@@ -140,18 +289,34 @@
   left: 268px;
   transform: rotate(1deg);
   position: absolute;
+
+  @media screen and (max-width: 834px) {
+    top: 348px;
+    left: 73px;
+  }
 }
 #PPVArrow2 {
   top: 372px;
   left: 227px;
   transform: scale(1, -1) rotate(-18deg);
   position: absolute;
+
+  @media screen and (max-width: 834px) {
+    top: 322px;
+    left: 117px;
+    transform: scale(1, -1) rotate(-58deg);
+  }
 }
 #PPVArrow3 {
   top: 461px;
   left: 477px;
   transform: rotate(-156deg);
   position: absolute;
+
+  @media screen and (max-width: 834px) {
+    top: 578px;
+    left: 45px;
+  }
 }
 
 #GGArrow1 {
@@ -159,18 +324,44 @@
   left: 750px;
   transform: scale(-1, 1) rotate(-18deg);
   position: absolute;
+  @media screen and (max-width: 1240px) {
+    left: 536px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 390px;
+    left: 90px;
+    transform: rotate(42deg);
+  }
 }
 #GGArrow2 {
   top: 356px;
   left: 690px;
   transform: scale(-1, 1) rotate(-39deg);
   position: absolute;
+  @media screen and (max-width: 1240px) {
+    left: 472px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 578px;
+    left: 98px;
+  }
 }
 #GGArrow3 {
   top: 410px;
   left: 396px;
   transform: rotate(-67deg);
   position: absolute;
+
+  @media screen and (max-width: 1240px) {
+    left: 217px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 598px;
+    left: 28px;
+  }
 }
 
 #ASArrow1 {
@@ -178,16 +369,45 @@
   left: 297px;
   transform: rotate(-28deg);
   position: absolute;
+
+  @media screen and (max-width: 1240px) {
+    left: 145px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 373px;
+    left: 50px;
+    transform: rotate(28deg);
+  }
 }
 #ASArrow2 {
   top: 416px;
   left: 484px;
   transform: rotate(-49deg);
   position: absolute;
+
+  @media screen and (max-width: 1240px) {
+    left: 318px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 526px;
+    left: 34px;
+    transform: rotate(-52deg);
+  }
 }
 #ASArrow3 {
   top: 414px;
   left: 742px;
   transform: scale(-1, 1) rotate(-65deg);
   position: absolute;
+
+  @media screen and (max-width: 1240px) {
+    left: 546px;
+  }
+
+  @media screen and (max-width: 834px) {
+    top: 584px;
+    left: 130px;
+  }
 }

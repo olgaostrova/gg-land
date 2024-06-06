@@ -16,6 +16,10 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+
+  @media screen and (max-width: 834px) {
+    display: none;
+  }
 }
 
 .C_cards {

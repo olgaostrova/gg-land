@@ -25,6 +25,10 @@ body {
 
   h1 {
     font-size: 12rem;
+
+    @media screen and (max-width: 834px) {
+      font-size: 8rem;
+    }
   }
 
   h2 {
