@@ -48,6 +48,10 @@
     height: 16rem;
     top: 5rem;
   }
+
+  @media screen and (max-width: 639px) {
+    display: none;
+  }
 }
 
 @keyframes cards {

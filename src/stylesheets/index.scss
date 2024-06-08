@@ -66,6 +66,12 @@ body {
   width: 100%;
   height: auto;
   position: absolute;
+  @media screen and (max-width: 639px) {
+    left: -9rem;
+    width: auto;
+    height: 33rem;
+    position: absolute;
+  }
 }
 
 .first_loop {
@@ -73,14 +79,26 @@ body {
   width: 100%;
   height: auto;
   position: absolute;
+  @media screen and (max-width: 639px) {
+    left: -9rem;
+    width: auto;
+    height: 33rem;
+    position: absolute;
+  }
 }
 .final_loop {
   top: 0;
   width: 100%;
   height: auto;
   position: absolute;
+  @media screen and (max-width: 639px) {
+    left: -9rem;
+    width: auto;
+    height: 33rem;
+    position: absolute;
+  }
 }
 
 .None {
-  display: none;
+  display: none !important;
 }
