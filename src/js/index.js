@@ -2,7 +2,19 @@
 import '../index.css'
 
 $(document).ready(function () {
-  $('#S_screen1').click(function () {
+  $('.A_gifForward').click(function () {
+    $('.A_gifForward').addClass('None')
+    $('.A_gif').removeClass('None')
+
+    setTimeout(function () {
+      $('.A_gif').addClass('None')
+      $(
+        '#header, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+      ).removeClass('None')
+    }, 3390)
+  })
+
+  $('.first_loop').click(function () {
     $('.first_loop').addClass('None')
     $('.A_click').addClass('None')
     $('.video').get(0).play()
