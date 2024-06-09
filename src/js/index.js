@@ -8,10 +8,9 @@ $(document).ready(function () {
 
     setTimeout(function () {
       $('.A_gif').addClass('None')
-      $('.C_cards').removeClass('None')
-
+      $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')
       $(
-        '#S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+        '.C_cards, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
     }, 3390)
   })
@@ -25,6 +24,8 @@ $(document).ready(function () {
     setTimeout(function () {
       $('.video').addClass('None')
       $('.C_cards').removeClass('None')
+      $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')
+
       $('.final_loop').get(0).play()
       $('.final_loop').css('loop', 'loop')
       $(
