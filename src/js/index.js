@@ -2,19 +2,21 @@
 import '../index.css'
 
 $(document).ready(function () {
-  $('.A_gifForward').click(function () {
+  $('#S_screen_1_mobile').one('click', function () {
     $('.A_gifForward').addClass('None')
     $('.A_gif').removeClass('None')
 
     setTimeout(function () {
       $('.A_gif').addClass('None')
+      $('.C_cards').removeClass('None')
+
       $(
-        '#header, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+        '#S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
     }, 3390)
   })
 
-  $('.first_loop').click(function () {
+  $('#S_screen1').one('click', function () {
     $('.first_loop').addClass('None')
     $('.A_click').addClass('None')
     $('.video').get(0).play()
@@ -26,7 +28,7 @@ $(document).ready(function () {
       $('.final_loop').get(0).play()
       $('.final_loop').css('loop', 'loop')
       $(
-        '#header, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+        '#S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
     }, 3390)
   })

@@ -90,3 +90,26 @@
       );
   }
 }
+
+#S_screen_1_mobile {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0) 67.51%,
+        rgba(8, 7, 16, 0.53) 88.75%,
+        #100d1e 100%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 67.51%,
+        rgba(8, 7, 16, 0.53) 88.75%,
+        #100d1e 100%
+      );
+  }
+}

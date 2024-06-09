@@ -28,11 +28,21 @@
   height: 49rem;
   position: relative;
 
-  * {
+  .A_gifBack,
+  .A_gif,
+  .A_gifForward {
     position: absolute;
     height: 49rem;
     /* width: 33rem; */
     object-fit: cover;
+  }
+
+  .C_cards {
+    top: 14rem;
+  }
+
+  @media screen and (min-width: 1240px) {
+    display: none;
   }
   // }
 }
@@ -55,16 +65,21 @@
   height: 44rem;
   position: relative;
 
-  @media screen and (max-width: 640px) {
-    // display: none;
+  // @media screen and (max-width: 640px) {
+  //   // display: none;
+  // }
+
+  // @media screen and (max-width: 770px) {
+  //   height: 27rem;
+  // }
+  // @media screen and (max-width: 1000px) {
+  //   height: 33rem;
+  // }
+
+  @media screen and (max-width: 1239px) {
+    display: none;
   }
 
-  @media screen and (max-width: 770px) {
-    height: 27rem;
-  }
-  @media screen and (max-width: 1000px) {
-    height: 33rem;
-  }
   @media screen and (min-width: 1440px) {
     height: 54rem;
   }
