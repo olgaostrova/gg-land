@@ -12,7 +12,7 @@ $(document).ready(function () {
       $(
         '.C_cards, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
-    }, 3390)
+    }, 3200)
   })
 
   $('#S_screen1').one('click', function () {
