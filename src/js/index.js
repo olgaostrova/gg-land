@@ -4,6 +4,7 @@ import '../index.css'
 $(document).ready(function () {
   $('#S_screen_1_mobile').one('click', function () {
     $('.A_gifForward').addClass('None')
+    $('.A_click').addClass('None')
     $('.A_gif').removeClass('None')
 
     setTimeout(function () {
