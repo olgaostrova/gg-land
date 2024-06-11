@@ -16,7 +16,7 @@ $(document).ready(function () {
     }, 3200)
   })
 
-  $('#S_screen1').one('click', function () {
+  $('.A_click').one('click', function () {
     $('.first_loop').addClass('None')
     $('.A_click').addClass('None')
     $('.video').get(0).play()
