@@ -2,8 +2,10 @@
 import '../index.css'
 
 $(document).ready(function () {
-  $('#S_screen_1_mobile').one('click', function () {
-    $('.A_gifForward').addClass('None')
+  $('#S_screen1Mobile').one('click', function () {
+    $('.A_imageForward').addClass('None')
+    $('.C_action').removeClass('None')
+    $('.A_imageBack').removeClass('None')
     $('.A_click').addClass('None')
     setTimeout(function () {
       $('#1').addClass('None')
@@ -67,28 +69,28 @@ $(document).ready(function () {
     }, 2000)
     setTimeout(function () {
       $('#21').addClass('None')
-    }, 2125)
+    }, 2100)
     setTimeout(function () {
       $('#22').addClass('None')
-    }, 2350)
+    }, 2200)
     setTimeout(function () {
       $('#23').addClass('None')
-    }, 2475)
+    }, 2300)
     setTimeout(function () {
       $('#24').addClass('None')
-    }, 2600)
+    }, 2400)
     setTimeout(function () {
-      $('.A_gif').addClass('None')
       $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')
       $(
-        '.C_cards, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+        '.C_cards, #S_screen2Mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
     }, 2800)
   })
 
-  $('.A_footerLogo').one('click', function () {
+  $('#S_screen1').one('click', function () {
     $('.first_loop').addClass('None')
     $('.A_click').addClass('None')
+    $('.final_loop').removeClass('None')
     $('.video').get(0).play()
     $('.C_videos').css('cursor', 'auto')
 
