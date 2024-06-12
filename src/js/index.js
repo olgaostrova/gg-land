@@ -7,83 +7,83 @@ $(document).ready(function () {
     $('.A_click').addClass('None')
     setTimeout(function () {
       $('#1').addClass('None')
-    }, 125)
+    }, 100)
     setTimeout(function () {
       $('#2').addClass('None')
-    }, 250)
+    }, 200)
     setTimeout(function () {
       $('#3').addClass('None')
-    }, 375)
+    }, 300)
     setTimeout(function () {
       $('#4').addClass('None')
-    }, 500)
+    }, 400)
     setTimeout(function () {
       $('#5').addClass('None')
-    }, 625)
+    }, 500)
     setTimeout(function () {
       $('#6').addClass('None')
-    }, 750)
+    }, 600)
     setTimeout(function () {
       $('#7').addClass('None')
-    }, 875)
+    }, 700)
     setTimeout(function () {
       $('#8').addClass('None')
-    }, 1000)
+    }, 800)
     setTimeout(function () {
       $('#9').addClass('None')
-    }, 1125)
+    }, 900)
     setTimeout(function () {
       $('#10').addClass('None')
-    }, 1250)
+    }, 1000)
     setTimeout(function () {
       $('#11').addClass('None')
-    }, 1375)
+    }, 1100)
     setTimeout(function () {
       $('#12').addClass('None')
-    }, 1500)
+    }, 1200)
     setTimeout(function () {
       $('#13').addClass('None')
-    }, 1625)
+    }, 1300)
     setTimeout(function () {
       $('#14').addClass('None')
-    }, 1750)
+    }, 1400)
     setTimeout(function () {
       $('#15').addClass('None')
-    }, 1875)
+    }, 1500)
     setTimeout(function () {
       $('#16').addClass('None')
-    }, 2000)
+    }, 1600)
     setTimeout(function () {
       $('#17').addClass('None')
-    }, 2125)
+    }, 1700)
     setTimeout(function () {
       $('#18').addClass('None')
-    }, 2250)
+    }, 1800)
     setTimeout(function () {
       $('#19').addClass('None')
-    }, 2375)
+    }, 1900)
     setTimeout(function () {
       $('#20').addClass('None')
-    }, 2500)
+    }, 2000)
     setTimeout(function () {
       $('#21').addClass('None')
-    }, 2625)
+    }, 2125)
     setTimeout(function () {
       $('#22').addClass('None')
-    }, 2750)
+    }, 2350)
     setTimeout(function () {
       $('#23').addClass('None')
-    }, 2875)
+    }, 2475)
     setTimeout(function () {
       $('#24').addClass('None')
-    }, 3000)
+    }, 2600)
     setTimeout(function () {
       $('.A_gif').addClass('None')
       $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')
       $(
         '.C_cards, #S_screen_2_mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
-    }, 3200)
+    }, 2800)
   })
 
   $('.A_footerLogo').one('click', function () {
