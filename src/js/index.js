@@ -5,8 +5,78 @@ $(document).ready(function () {
   $('#S_screen_1_mobile').one('click', function () {
     $('.A_gifForward').addClass('None')
     $('.A_click').addClass('None')
-    $('.A_gif').removeClass('None')
-
+    setTimeout(function () {
+      $('#1').addClass('None')
+    }, 125)
+    setTimeout(function () {
+      $('#2').addClass('None')
+    }, 250)
+    setTimeout(function () {
+      $('#3').addClass('None')
+    }, 375)
+    setTimeout(function () {
+      $('#4').addClass('None')
+    }, 500)
+    setTimeout(function () {
+      $('#5').addClass('None')
+    }, 625)
+    setTimeout(function () {
+      $('#6').addClass('None')
+    }, 750)
+    setTimeout(function () {
+      $('#7').addClass('None')
+    }, 875)
+    setTimeout(function () {
+      $('#8').addClass('None')
+    }, 1000)
+    setTimeout(function () {
+      $('#9').addClass('None')
+    }, 1125)
+    setTimeout(function () {
+      $('#10').addClass('None')
+    }, 1250)
+    setTimeout(function () {
+      $('#11').addClass('None')
+    }, 1375)
+    setTimeout(function () {
+      $('#12').addClass('None')
+    }, 1500)
+    setTimeout(function () {
+      $('#13').addClass('None')
+    }, 1625)
+    setTimeout(function () {
+      $('#14').addClass('None')
+    }, 1750)
+    setTimeout(function () {
+      $('#15').addClass('None')
+    }, 1875)
+    setTimeout(function () {
+      $('#16').addClass('None')
+    }, 2000)
+    setTimeout(function () {
+      $('#17').addClass('None')
+    }, 2125)
+    setTimeout(function () {
+      $('#18').addClass('None')
+    }, 2250)
+    setTimeout(function () {
+      $('#19').addClass('None')
+    }, 2375)
+    setTimeout(function () {
+      $('#20').addClass('None')
+    }, 2500)
+    setTimeout(function () {
+      $('#21').addClass('None')
+    }, 2625)
+    setTimeout(function () {
+      $('#22').addClass('None')
+    }, 2750)
+    setTimeout(function () {
+      $('#23').addClass('None')
+    }, 2875)
+    setTimeout(function () {
+      $('#24').addClass('None')
+    }, 3000)
     setTimeout(function () {
       $('.A_gif').addClass('None')
       $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')

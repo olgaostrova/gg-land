@@ -5,6 +5,15 @@
   gap: 1rem;
 }
 
+.C_action {
+  * {
+    position: absolute;
+    height: 49rem;
+    /* width: 33rem; */
+    object-fit: cover;
+  }
+}
+
 .C_footerContent {
   position: relative;
   gap: 0.25rem;
