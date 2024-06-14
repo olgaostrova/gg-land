@@ -107,6 +107,36 @@ $(document).ready(function () {
     }, 3390)
   })
 
+  $('.as_forward').click(function () {
+    $(this).addClass('None')
+    $('.as_back').removeClass('None')
+  })
+
+  $('.as_back').click(function () {
+    $(this).addClass('None')
+    $('.as_forward').removeClass('None')
+  })
+
+  $('.gg_forward').click(function () {
+    $(this).addClass('None')
+    $('.gg_back').removeClass('None')
+  })
+
+  $('.gg_back').click(function () {
+    $(this).addClass('None')
+    $('.gg_forward').removeClass('None')
+  })
+
+  $('.ppv_forward').click(function () {
+    $(this).addClass('None')
+    $('.ppv_back').removeClass('None')
+  })
+
+  $('.ppv_back').click(function () {
+    $(this).addClass('None')
+    $('.ppv_forward').removeClass('None')
+  })
+
   // $('#contactEmail').click(function () {
   //   var textToCopy = $(this).text()
   //   copyToClipboard(textToCopy)
@@ -121,14 +151,14 @@ $(document).ready(function () {
   //   $temp.remove()
   // }
 
-  const button = document.querySelector('contactEmail') //сама кнопка
-  $(function () {
-    $(document).on('click', 'button', function () {
-      navigator.clipboard.writeText('Blak.smoke.sol@gmail.com')
-      $('.A_copied').removeClass('None')
-      setTimeout(function () {
-        $('.A_copied').addClass('None')
-      }, 3390)
-    })
-  })
+  // const button = document.querySelector('contactEmail') //сама кнопка
+  // $(function () {
+  //   $(document).on('click', 'button', function () {
+  //     navigator.clipboard.writeText('Blak.smoke.sol@gmail.com')
+  //     $('.A_copied').removeClass('None')
+  //     setTimeout(function () {
+  //       $('.A_copied').addClass('None')
+  //     }, 3390)
+  //   })
+  // })
 })

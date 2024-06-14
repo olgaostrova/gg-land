@@ -19,16 +19,14 @@
 
 .O_serviceCard {
   position: absolute;
-  height: 20rem;
-  width: 15rem;
+  height: 22rem;
+  width: 17rem;
   background-color: #100d1e;
   border-radius: 1rem;
   border: 1px solid #639880;
-  padding: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   transition: 0.1s;
+  text-align: center;
 
   * {
     -ms-user-select: none;
@@ -39,8 +37,8 @@
 
   img {
     mix-blend-mode: lighten;
+    // height: 15rem;
   }
-
   &:hover {
     box-shadow: 0px 0px 10px 0px rgba(108, 215, 167, 0.4);
     // background-color: #132a20;
@@ -50,11 +48,15 @@
   @media screen and (min-width: 640px) and (max-width: 1000px) {
     height: 15rem;
     width: 10rem;
-    padding: 0.8rem;
     border-radius: 0.6rem;
 
     p {
       font-size: 0.5rem;
+    }
+
+    .A_desc {
+      font-size: 0.7rem;
+      margin: 0.5rem;
     }
   }
 
@@ -129,18 +131,30 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+  .A_desc {
+    margin: 6rem 0.5rem;
+  }
 
   @media screen and (max-width: 1239px) {
     top: 10rem;
     left: 24rem;
+    .A_desc {
+      margin: 6rem 0.5rem;
+    }
   }
   @media screen and (max-width: 1000px) {
     top: 10rem;
     left: 17rem;
+    .A_desc {
+      margin: 3rem 0.5rem;
+    }
   }
   @media screen and (max-width: 770px) {
     top: 5rem;
     left: 14.5rem;
+    .A_desc {
+      margin: 3rem 0.5rem;
+    }
   }
 }
 
@@ -152,6 +166,9 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+  .A_desc {
+    margin: 4rem 1rem;
+  }
 
   @media screen and (max-width: 1239px) {
     top: 2rem;
@@ -161,11 +178,17 @@
   @media screen and (max-width: 1000px) {
     top: 2rem;
     left: 35rem;
+    .A_desc {
+      margin: 2rem 0.5rem;
+    }
   }
 
   @media screen and (max-width: 770px) {
     top: 2rem;
     left: 28rem;
+    .A_desc {
+      margin: 2rem 0.5rem;
+    }
   }
 }
 
@@ -177,15 +200,24 @@
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   transition-timing-function: ease-in;
+  .A_desc {
+    margin: 3rem 1rem;
+  }
 
   @media screen and (max-width: 770px) {
     top: 0;
     left: 1rem;
+    .A_desc {
+      margin: 0.5rem 0.5rem;
+    }
   }
 
   @media screen and (max-width: 1000px) {
     top: 0;
     left: 1rem;
+    .A_desc {
+      margin: 0.5rem 0.5rem;
+    }
   }
 }
 
