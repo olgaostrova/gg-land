@@ -440,3 +440,63 @@
     left: 130px;
   }
 }
+
+.A_button {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+  text-align: center;
+  position: relative;
+  width: 8rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #100d1e;
+  border-radius: 1rem;
+  background-position: center;
+  border: 1px solid #639880; // background-image: url('../../images/A_ASCover.jpg');
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+#as_button {
+  background-image: url('images/A_ASButtonCover.jpg');
+}
+
+#gg_button {
+  background-image: url('images/A_GGButtonCover.jpg');
+}
+
+#ppv_button {
+  background-image: url('images/A_PPVButtonCover.jpg');
+}
+
+.A_buttonText {
+  background: linear-gradient(
+      0deg,
+      rgba(8, 90, 53, 0.2) 0%,
+      rgba(8, 90, 53, 0.2) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(27, 23, 45, 0.2) 0%,
+      rgba(46, 34, 101, 0.2) 64.5%,
+      rgba(28, 24, 47, 0.2) 100%
+    ),
+    rgba(16, 13, 30, 0.6);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+#ppv_text {
+  top: 15rem;
+}
+
+#gg_text {
+  bottom: 0;
+}

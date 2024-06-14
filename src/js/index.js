@@ -82,7 +82,7 @@ $(document).ready(function () {
     setTimeout(function () {
       $('.A_headerLogo,  .C_headerMenu, .A_bookHeader').removeClass('Opacity')
       $(
-        '.C_cards, #S_screen2Mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
+        '.C_cards, .O_cardsMobile, #S_screen2Mobile, #S_screen3, #S_screen4, #S_screen5, #S_screen6, #S_screen7'
       ).removeClass('None')
     }, 2800)
   })
@@ -137,6 +137,23 @@ $(document).ready(function () {
     $('.ppv_forward').removeClass('None')
   })
 
+  $('#as_button').click(function () {
+    $('#as_text').removeClass('None')
+    $('#ppv_text').addClass('None')
+    $('#gg_text').addClass('None')
+  })
+
+  $('#ppv_button').click(function () {
+    $('#ppv_text').removeClass('None')
+    $('#as_text').addClass('None')
+    $('#gg_text').addClass('None')
+  })
+
+  $('#gg_button').click(function () {
+    $('#gg_text').removeClass('None')
+    $('#ppv_text').addClass('None')
+    $('#as_text').addClass('None')
+  })
   // $('#contactEmail').click(function () {
   //   var textToCopy = $(this).text()
   //   copyToClipboard(textToCopy)
