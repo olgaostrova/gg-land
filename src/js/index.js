@@ -135,24 +135,32 @@ $(document).ready(function () {
   $('.ppv_back').click(function () {
     $(this).addClass('None')
     $('.ppv_forward').removeClass('None')
-  })
-
-  $('#as_button').click(function () {
-    $('#as_text').removeClass('None')
-    $('#ppv_text').addClass('None')
-    $('#gg_text').addClass('None')
-  })
+  }),
+    $('#as_button').click(function () {
+      $('#as_text').removeClass('None')
+      $('#ppv_text').addClass('None')
+      $('#gg_text').addClass('None')
+      $('#as_icon').addClass('A_iconServiceOnClick')
+      $('#ppv_icon').removeClass('A_iconServiceOnClick')
+      $('#gg_icon').removeClass('A_iconServiceOnClick')
+    })
 
   $('#ppv_button').click(function () {
     $('#ppv_text').removeClass('None')
     $('#as_text').addClass('None')
     $('#gg_text').addClass('None')
+    $('#ppv_icon').addClass('A_iconServiceOnClick')
+    $('#as_icon').removeClass('A_iconServiceOnClick')
+    $('#gg_icon').removeClass('A_iconServiceOnClick')
   })
 
   $('#gg_button').click(function () {
     $('#gg_text').removeClass('None')
     $('#ppv_text').addClass('None')
     $('#as_text').addClass('None')
+    $('#gg_icon').addClass('A_iconServiceOnClick')
+    $('#as_icon').removeClass('A_iconServiceOnClick')
+    $('#ppv_icon').removeClass('A_iconServiceOnClick')
   })
   // $('#contactEmail').click(function () {
   //   var textToCopy = $(this).text()

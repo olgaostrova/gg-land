@@ -443,35 +443,34 @@
 
 .A_button {
   display: flex;
-  align-content: center;
-  flex-wrap: wrap;
   padding: 0.2rem;
   text-align: center;
   position: relative;
   width: 8rem;
-  height: 10rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #100d1e;
-  border-radius: 1rem;
-  background-position: center;
-  border: 1px solid #639880; // background-image: url('../../images/A_ASCover.jpg');
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 
   p {
     font-size: 1.2rem;
   }
 }
 
-#as_button {
-  background-image: url('images/A_ASButtonCover.jpg');
+.A_iconService {
+  background: rgba(108, 215, 166, 0.1);
+  backdrop-filter: blur(2px);
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  border-radius: 2rem;
+  justify-content: center;
 }
 
-#gg_button {
-  background-image: url('images/A_GGButtonCover.jpg');
-}
-
-#ppv_button {
-  background-image: url('images/A_PPVButtonCover.jpg');
+.A_iconServiceOnClick {
+  background-color: #0f1c23;
+  box-shadow: 0px 0px 20px 0px rgba(108, 215, 186, 0.6);
 }
 
 .A_buttonText {

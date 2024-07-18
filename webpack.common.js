@@ -129,6 +129,30 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/sword.html'),
+        location: 'sword',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/hands.html'),
+        location: 'hands',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/partials/shield.html'),
+        location: 'shield',
+        template_filename: '*',
+        priority: 'replace'
+      }
     ])
   ],
   optimization: {
