@@ -459,6 +459,7 @@
 }
 
 .A_iconService {
+  mix-blend-mode: luminosity;
   background: rgba(108, 215, 166, 0.1);
   backdrop-filter: blur(2px);
   width: 6rem;
@@ -469,7 +470,8 @@
 }
 
 .A_iconServiceOnClick {
-  background-color: #0f1c23;
+  // background-color: #0f1c23;
+  mix-blend-mode: normal;
   box-shadow: 0px 0px 20px 0px rgba(108, 215, 186, 0.6);
 }
 
